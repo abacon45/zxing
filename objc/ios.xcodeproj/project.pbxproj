@@ -23,6 +23,8 @@
 		3BBCB71512DD105C00B5936D /* ZXResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BBCB71412DD105C00B5936D /* ZXResult.mm */; };
 		AA747D9F0F9514B9006C5449 /* ios_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ios_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		CD36EC5F152F2DA800662113 /* ZXCode39Reader.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD36EC5D152F2DA700662113 /* ZXCode39Reader.mm */; };
+		CD36EC60152F2DA800662113 /* ZXUPCEReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD36EC5E152F2DA800662113 /* ZXUPCEReader.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		3BBCB71412DD105C00B5936D /* ZXResult.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXResult.mm; path = src/zxing/ZXResult.mm; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ios_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD36EC5D152F2DA700662113 /* ZXCode39Reader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXCode39Reader.mm; path = src/ZXing/ZXCode39Reader.mm; sourceTree = "<group>"; };
+		CD36EC5E152F2DA800662113 /* ZXUPCEReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXUPCEReader.mm; path = src/ZXing/ZXUPCEReader.mm; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libzxingmm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzxingmm.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,7 +98,9 @@
 				3BBCB6AC12DD0B4C00B5936D /* ZXDecodeHints.mm */,
 				3BBCB6AD12DD0B4C00B5936D /* ZXHybridBinarizer.mm */,
 				3BBCB6AE12DD0B4C00B5936D /* ZXIllegalArgumentException.mm */,
+				CD36EC5D152F2DA700662113 /* ZXCode39Reader.mm */,
 				3BBCB6AF12DD0B4C00B5936D /* ZXQRCodeReader.mm */,
+				CD36EC5E152F2DA800662113 /* ZXUPCEReader.mm */,
 				3BBCB6B012DD0B4C00B5936D /* ZXReaderException.mm */,
 				3BBCB6A812DD0B1900B5936D /* ZXBinaryBitmap.mm */,
 				3BBCB60912DD084000B5936D /* ZXCapture.mm */,
@@ -191,6 +197,8 @@
 				3BBCB6BC12DD0B8100B5936D /* ZXCGImageLuminanceSource.mm in Sources */,
 				3BBCB6BD12DD0B8100B5936D /* ZXReader.mm in Sources */,
 				3BBCB71512DD105C00B5936D /* ZXResult.mm in Sources */,
+				CD36EC5F152F2DA800662113 /* ZXCode39Reader.mm in Sources */,
+				CD36EC60152F2DA800662113 /* ZXUPCEReader.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
