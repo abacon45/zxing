@@ -1636,6 +1636,7 @@
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_THUMB_SUPPORT = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				INFOPLIST_FILE = "ZXingTests-Info.plist";
 				OTHER_LDFLAGS = (
@@ -1662,6 +1663,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_THUMB_SUPPORT = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				INFOPLIST_FILE = "ZXingTests-Info.plist";
 				OTHER_LDFLAGS = (
@@ -1690,6 +1692,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ZXingWidget_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				HEADER_SEARCH_PATHS = ../../cpp/core/src;
 				INSTALL_PATH = /usr/local/lib;
@@ -1716,6 +1719,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ZXingWidget_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				HEADER_SEARCH_PATHS = ../../cpp/core/src;
 				INSTALL_PATH = /usr/local/lib;
@@ -1733,6 +1737,7 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_THUMB_SUPPORT = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1760,6 +1765,7 @@
 					armv7s,
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
