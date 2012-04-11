@@ -154,6 +154,14 @@
 		3B81AAF9120F0A7E0022E5D4 /* GreyscaleRotatedLuminanceSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B81AAF7120F0A7E0022E5D4 /* GreyscaleRotatedLuminanceSource.h */; };
 		AA747D9F0F9514B9006C5449 /* ZXingWidget_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ZXingWidget_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		CDD2A348153629EE007A8F01 /* UPCEReader.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD2A346153629EE007A8F01 /* UPCEReader.h */; };
+		CDD2A349153629EE007A8F01 /* UPCEReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDD2A347153629EE007A8F01 /* UPCEReader.mm */; };
+		CDD2A34D153630D2007A8F01 /* UPCAReader.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD2A34B153630D2007A8F01 /* UPCAReader.h */; };
+		CDD2A34E153630D2007A8F01 /* UPCAReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDD2A34C153630D2007A8F01 /* UPCAReader.mm */; };
+		CDD2A35115363444007A8F01 /* Code39Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD2A34F15363444007A8F01 /* Code39Reader.h */; };
+		CDD2A35215363444007A8F01 /* Code39Reader.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDD2A35015363444007A8F01 /* Code39Reader.mm */; };
+		CDD2A35915363586007A8F01 /* Code128Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD2A35715363585007A8F01 /* Code128Reader.h */; };
+		CDD2A35A15363586007A8F01 /* Code128Reader.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDD2A35815363585007A8F01 /* Code128Reader.mm */; };
 		E534594311987396000CB77F /* BarcodeFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E53458B511987396000CB77F /* BarcodeFormat.cpp */; };
 		E534594411987396000CB77F /* BarcodeFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = E53458B611987396000CB77F /* BarcodeFormat.h */; };
 		E534594511987396000CB77F /* Binarizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E53458B711987396000CB77F /* Binarizer.cpp */; };
@@ -444,6 +452,14 @@
 		3B81AAF7120F0A7E0022E5D4 /* GreyscaleRotatedLuminanceSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreyscaleRotatedLuminanceSource.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ZXingWidget_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXingWidget_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDD2A346153629EE007A8F01 /* UPCEReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPCEReader.h; path = Classes/UPCEReader.h; sourceTree = "<group>"; };
+		CDD2A347153629EE007A8F01 /* UPCEReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UPCEReader.mm; path = Classes/UPCEReader.mm; sourceTree = "<group>"; };
+		CDD2A34B153630D2007A8F01 /* UPCAReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPCAReader.h; path = Classes/UPCAReader.h; sourceTree = "<group>"; };
+		CDD2A34C153630D2007A8F01 /* UPCAReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UPCAReader.mm; path = Classes/UPCAReader.mm; sourceTree = "<group>"; };
+		CDD2A34F15363444007A8F01 /* Code39Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Code39Reader.h; path = Classes/Code39Reader.h; sourceTree = "<group>"; };
+		CDD2A35015363444007A8F01 /* Code39Reader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Code39Reader.mm; path = Classes/Code39Reader.mm; sourceTree = "<group>"; };
+		CDD2A35715363585007A8F01 /* Code128Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Code128Reader.h; path = Classes/Code128Reader.h; sourceTree = "<group>"; };
+		CDD2A35815363585007A8F01 /* Code128Reader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Code128Reader.mm; path = Classes/Code128Reader.mm; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libZXingWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZXingWidget.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53458B511987396000CB77F /* BarcodeFormat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarcodeFormat.cpp; sourceTree = "<group>"; };
 		E53458B611987396000CB77F /* BarcodeFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeFormat.h; sourceTree = "<group>"; };
@@ -652,6 +668,10 @@
 				1D603E6313E20AF1006F4B51 /* ArrayAndStringCategories.m */,
 				1DFA090A13CE1A3900599044 /* CBarcodeFormat.h */,
 				1DFA090B13CE1A3900599044 /* CBarcodeFormat.mm */,
+				CDD2A34F15363444007A8F01 /* Code39Reader.h */,
+				CDD2A35015363444007A8F01 /* Code39Reader.mm */,
+				CDD2A35715363585007A8F01 /* Code128Reader.h */,
+				CDD2A35815363585007A8F01 /* Code128Reader.mm */,
 				1F3DB0F511C61080009C581B /* DataMatrixReader.h */,
 				1F3DB0F611C61080009C581B /* DataMatrixReader.mm */,
 				1F3DB0F711C61080009C581B /* MultiFormatOneDReader.h */,
@@ -662,6 +682,10 @@
 				1F3DB0C111C60DB4009C581B /* QRCodeReader.mm */,
 				1F027FB711A7BEBF006B06DE /* TwoDDecoderResult.h */,
 				1F027FB811A7BEBF006B06DE /* TwoDDecoderResult.m */,
+				CDD2A34B153630D2007A8F01 /* UPCAReader.h */,
+				CDD2A34C153630D2007A8F01 /* UPCAReader.mm */,
+				CDD2A346153629EE007A8F01 /* UPCEReader.h */,
+				CDD2A347153629EE007A8F01 /* UPCEReader.mm */,
 				1F027FB911A7BEBF006B06DE /* ZXingWidgetController.h */,
 				1F027FBA11A7BEBF006B06DE /* ZXingWidgetController.m */,
 				1F027F9F11A7BEAF006B06DE /* Decoder.h */,
@@ -1211,6 +1235,10 @@
 				3B248F9314EF3A980065F0DA /* Decoder.h in Headers */,
 				3B248F9514EF3A980065F0DA /* Detector.h in Headers */,
 				3B248F9814EF3AF80065F0DA /* AztecReader.h in Headers */,
+				CDD2A348153629EE007A8F01 /* UPCEReader.h in Headers */,
+				CDD2A34D153630D2007A8F01 /* UPCAReader.h in Headers */,
+				CDD2A35115363444007A8F01 /* Code39Reader.h in Headers */,
+				CDD2A35915363586007A8F01 /* Code128Reader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1458,6 +1486,10 @@
 				3B248F9214EF3A980065F0DA /* Decoder.cpp in Sources */,
 				3B248F9414EF3A980065F0DA /* Detector.cpp in Sources */,
 				3B248F9914EF3AF80065F0DA /* AztecReader.mm in Sources */,
+				CDD2A349153629EE007A8F01 /* UPCEReader.mm in Sources */,
+				CDD2A34E153630D2007A8F01 /* UPCAReader.mm in Sources */,
+				CDD2A35215363444007A8F01 /* Code39Reader.mm in Sources */,
+				CDD2A35A15363586007A8F01 /* Code128Reader.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
