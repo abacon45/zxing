@@ -34,6 +34,7 @@
 
 @property BOOL showCancel;
 @property BOOL showLicense;
+@property BOOL showFullScreen;
 @property BOOL oneDMode;
 @property BOOL isStatusBarHidden;
 
@@ -50,26 +51,28 @@
 #endif
 @synthesize result, delegate, soundToPlay;
 @synthesize overlayView;
-@synthesize oneDMode, showCancel, showLicense, isStatusBarHidden;
+@synthesize oneDMode, showCancel, showLicense, showFullScreen, isStatusBarHidden;
 @synthesize readers;
 
 
 - (id)initWithDelegate:(id<ZXingDelegate>)scanDelegate showCancel:(BOOL)shouldShowCancel OneDMode:(BOOL)shouldUseoOneDMode {
   
-    return [self initWithDelegate:scanDelegate showCancel:shouldShowCancel OneDMode:shouldUseoOneDMode showLicense:YES];
+    return [self initWithDelegate:scanDelegate showCancel:shouldShowCancel OneDMode:shouldUseoOneDMode showLicense:YES withFrame:[UIScreen mainScreen].bounds];
 }
 
-- (id)initWithDelegate:(id<ZXingDelegate>)scanDelegate showCancel:(BOOL)shouldShowCancel OneDMode:(BOOL)shouldUseoOneDMode showLicense:(BOOL)shouldShowLicense {
+- (id)initWithDelegate:(id<ZXingDelegate>)scanDelegate showCancel:(BOOL)shouldShowCancel OneDMode:(BOOL)shouldUseoOneDMode showLicense:(BOOL)shouldShowLicense withFrame:(CGRect)frame {
   self = [super init];
   if (self) {
     [self setDelegate:scanDelegate];
     self.oneDMode = shouldUseoOneDMode;
     self.showCancel = shouldShowCancel;
     self.showLicense = shouldShowLicense;
-    self.wantsFullScreenLayout = YES;
+    BOOL shouldShowFullScreen = CGRectEqualToRect(frame, [UIScreen mainScreen].bounds);
+    self.showFullScreen = shouldShowFullScreen;
+    self.wantsFullScreenLayout = shouldShowFullScreen;
     beepSound = -1;
     decoding = NO;
-    OverlayView *theOverLayView = [[OverlayView alloc] initWithFrame:[UIScreen mainScreen].bounds 
+    OverlayView *theOverLayView = [[OverlayView alloc] initWithFrame:frame 
                                                        cancelEnabled:showCancel 
                                                             oneDMode:oneDMode
                                                          showLicense:shouldShowLicense];
@@ -126,7 +129,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
   [super viewWillAppear:animated];
-  self.wantsFullScreenLayout = YES;
+  self.wantsFullScreenLayout = self.showFullScreen;
   if ([self soundToPlay] != nil) {
     OSStatus error = AudioServicesCreateSystemSoundID((CFURLRef)[self soundToPlay], &beepSound);
     if (error != kAudioServicesNoError) {
@@ -137,9 +140,13 @@
 
 - (void)viewDidAppear:(BOOL)animated {
   [super viewDidAppear:animated];
-  self.isStatusBarHidden = [[UIApplication sharedApplication] isStatusBarHidden];
-  if (!isStatusBarHidden)
-    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+
+  if (self.showFullScreen)
+  {
+     self.isStatusBarHidden = [[UIApplication sharedApplication] isStatusBarHidden];
+     if (!isStatusBarHidden)
+       [[UIApplication sharedApplication] setStatusBarHidden:YES];
+  }
 
   decoding = YES;
 
