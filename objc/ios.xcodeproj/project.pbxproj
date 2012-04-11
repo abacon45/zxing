@@ -221,11 +221,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
-<<<<<<< HEAD
 				"GCC_THUMB_SUPPORT[arch=armv6]" = NO;
-=======
-				GCC_THUMB_SUPPORT = NO;
->>>>>>> Apply recommended, automatic project updates.
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = zxingmm;
