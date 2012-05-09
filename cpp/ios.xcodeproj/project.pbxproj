@@ -50,6 +50,20 @@
 		3BBF0AEE12CBCAFC0061650E /* AlignmentPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF0AED12CBCAFC0061650E /* AlignmentPattern.cpp */; };
 		AA747D9F0F9514B9006C5449 /* ios_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ios_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		CD933ED4155AC3EA00C0F4B0 /* GreyscaleLuminanceSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933ED2155AC3EA00C0F4B0 /* GreyscaleLuminanceSource.cpp */; };
+		CD933ED5155AC3EA00C0F4B0 /* GreyscaleRotatedLuminanceSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933ED3155AC3EA00C0F4B0 /* GreyscaleRotatedLuminanceSource.cpp */; };
+		CD933EE4155AC42C00C0F4B0 /* Code39Reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933ED8155AC42C00C0F4B0 /* Code39Reader.cpp */; };
+		CD933EE5155AC42C00C0F4B0 /* Code128Reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933ED9155AC42C00C0F4B0 /* Code128Reader.cpp */; };
+		CD933EE6155AC42C00C0F4B0 /* EAN8Reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EDA155AC42C00C0F4B0 /* EAN8Reader.cpp */; };
+		CD933EE7155AC42C00C0F4B0 /* EAN13Reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EDB155AC42C00C0F4B0 /* EAN13Reader.cpp */; };
+		CD933EE8155AC42C00C0F4B0 /* ITFReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EDC155AC42C00C0F4B0 /* ITFReader.cpp */; };
+		CD933EE9155AC42C00C0F4B0 /* MultiFormatOneDReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EDD155AC42C00C0F4B0 /* MultiFormatOneDReader.cpp */; };
+		CD933EEA155AC42C00C0F4B0 /* MultiFormatUPCEANReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EDE155AC42C00C0F4B0 /* MultiFormatUPCEANReader.cpp */; };
+		CD933EEB155AC42C00C0F4B0 /* OneDReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EDF155AC42C00C0F4B0 /* OneDReader.cpp */; };
+		CD933EEC155AC42C00C0F4B0 /* OneDResultPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EE0155AC42C00C0F4B0 /* OneDResultPoint.cpp */; };
+		CD933EED155AC42C00C0F4B0 /* UPCAReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EE1155AC42C00C0F4B0 /* UPCAReader.cpp */; };
+		CD933EEE155AC42C00C0F4B0 /* UPCEANReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EE2155AC42C00C0F4B0 /* UPCEANReader.cpp */; };
+		CD933EEF155AC42C00C0F4B0 /* UPCEReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EE3155AC42C00C0F4B0 /* UPCEReader.cpp */; };
 		E105A8FE14EC34270011473C /* GenericGF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E105A8FC14EC34270011473C /* GenericGF.cpp */; };
 		E105A8FF14EC34270011473C /* GenericGFPoly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E105A8FD14EC34270011473C /* GenericGFPoly.cpp */; };
 		E105A90414EC35070011473C /* AztecDetectorResult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E105A90214EC35070011473C /* AztecDetectorResult.cpp */; };
@@ -102,6 +116,20 @@
 		3BBF0AED12CBCAFC0061650E /* AlignmentPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AlignmentPattern.cpp; path = core/src/zxing/qrcode/detector/AlignmentPattern.cpp; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ios_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD933ED2155AC3EA00C0F4B0 /* GreyscaleLuminanceSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GreyscaleLuminanceSource.cpp; path = core/src/zxing/common/GreyscaleLuminanceSource.cpp; sourceTree = "<group>"; };
+		CD933ED3155AC3EA00C0F4B0 /* GreyscaleRotatedLuminanceSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GreyscaleRotatedLuminanceSource.cpp; path = core/src/zxing/common/GreyscaleRotatedLuminanceSource.cpp; sourceTree = "<group>"; };
+		CD933ED8155AC42C00C0F4B0 /* Code39Reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Code39Reader.cpp; path = core/src/zxing/oned/Code39Reader.cpp; sourceTree = "<group>"; };
+		CD933ED9155AC42C00C0F4B0 /* Code128Reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Code128Reader.cpp; path = core/src/zxing/oned/Code128Reader.cpp; sourceTree = "<group>"; };
+		CD933EDA155AC42C00C0F4B0 /* EAN8Reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EAN8Reader.cpp; path = core/src/zxing/oned/EAN8Reader.cpp; sourceTree = "<group>"; };
+		CD933EDB155AC42C00C0F4B0 /* EAN13Reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EAN13Reader.cpp; path = core/src/zxing/oned/EAN13Reader.cpp; sourceTree = "<group>"; };
+		CD933EDC155AC42C00C0F4B0 /* ITFReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ITFReader.cpp; path = core/src/zxing/oned/ITFReader.cpp; sourceTree = "<group>"; };
+		CD933EDD155AC42C00C0F4B0 /* MultiFormatOneDReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MultiFormatOneDReader.cpp; path = core/src/zxing/oned/MultiFormatOneDReader.cpp; sourceTree = "<group>"; };
+		CD933EDE155AC42C00C0F4B0 /* MultiFormatUPCEANReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MultiFormatUPCEANReader.cpp; path = core/src/zxing/oned/MultiFormatUPCEANReader.cpp; sourceTree = "<group>"; };
+		CD933EDF155AC42C00C0F4B0 /* OneDReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OneDReader.cpp; path = core/src/zxing/oned/OneDReader.cpp; sourceTree = "<group>"; };
+		CD933EE0155AC42C00C0F4B0 /* OneDResultPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OneDResultPoint.cpp; path = core/src/zxing/oned/OneDResultPoint.cpp; sourceTree = "<group>"; };
+		CD933EE1155AC42C00C0F4B0 /* UPCAReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UPCAReader.cpp; path = core/src/zxing/oned/UPCAReader.cpp; sourceTree = "<group>"; };
+		CD933EE2155AC42C00C0F4B0 /* UPCEANReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UPCEANReader.cpp; path = core/src/zxing/oned/UPCEANReader.cpp; sourceTree = "<group>"; };
+		CD933EE3155AC42C00C0F4B0 /* UPCEReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UPCEReader.cpp; path = core/src/zxing/oned/UPCEReader.cpp; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libzxing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzxing.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E105A8FC14EC34270011473C /* GenericGF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenericGF.cpp; path = core/src/zxing/common/reedsolomon/GenericGF.cpp; sourceTree = "<group>"; };
 		E105A8FD14EC34270011473C /* GenericGFPoly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenericGFPoly.cpp; path = core/src/zxing/common/reedsolomon/GenericGFPoly.cpp; sourceTree = "<group>"; };
@@ -154,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				E105A90114EC34E20011473C /* aztec */,
+				CD933ED7155AC40F00C0F4B0 /* oned */,
 				E105A90014EC34580011473C /* qrcode */,
 				3B1EEECC144F1FBE0051C6A5 /* CharacterSetECI.cpp */,
 				3B1EEECE144F1FBE0051C6A5 /* StringUtils.cpp */,
@@ -184,6 +213,8 @@
 				3B2A325112CE9D31001D9945 /* IllegalArgumentException.cpp */,
 				3B15E78512CE9BF900DC7062 /* Exception.cpp */,
 				3B15E73912CE996800DC7062 /* LuminanceSource.cpp */,
+				CD933ED2155AC3EA00C0F4B0 /* GreyscaleLuminanceSource.cpp */,
+				CD933ED3155AC3EA00C0F4B0 /* GreyscaleRotatedLuminanceSource.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -194,6 +225,25 @@
 				AA747D9E0F9514B9006C5449 /* ios_Prefix.pch */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		CD933ED7155AC40F00C0F4B0 /* oned */ = {
+			isa = PBXGroup;
+			children = (
+				CD933ED8155AC42C00C0F4B0 /* Code39Reader.cpp */,
+				CD933ED9155AC42C00C0F4B0 /* Code128Reader.cpp */,
+				CD933EDA155AC42C00C0F4B0 /* EAN8Reader.cpp */,
+				CD933EDB155AC42C00C0F4B0 /* EAN13Reader.cpp */,
+				CD933EDC155AC42C00C0F4B0 /* ITFReader.cpp */,
+				CD933EDD155AC42C00C0F4B0 /* MultiFormatOneDReader.cpp */,
+				CD933EDE155AC42C00C0F4B0 /* MultiFormatUPCEANReader.cpp */,
+				CD933EDF155AC42C00C0F4B0 /* OneDReader.cpp */,
+				CD933EE0155AC42C00C0F4B0 /* OneDResultPoint.cpp */,
+				CD933EE1155AC42C00C0F4B0 /* UPCAReader.cpp */,
+				CD933EE2155AC42C00C0F4B0 /* UPCEANReader.cpp */,
+				CD933EE3155AC42C00C0F4B0 /* UPCEReader.cpp */,
+			);
+			name = oned;
 			sourceTree = "<group>";
 		};
 		E105A90014EC34580011473C /* qrcode */ = {
@@ -339,6 +389,20 @@
 				E105A90514EC35070011473C /* AztecReader.cpp in Sources */,
 				E105A90714EC35110011473C /* Decoder.cpp in Sources */,
 				E105A90914EC35190011473C /* Detector.cpp in Sources */,
+				CD933ED4155AC3EA00C0F4B0 /* GreyscaleLuminanceSource.cpp in Sources */,
+				CD933ED5155AC3EA00C0F4B0 /* GreyscaleRotatedLuminanceSource.cpp in Sources */,
+				CD933EE4155AC42C00C0F4B0 /* Code39Reader.cpp in Sources */,
+				CD933EE5155AC42C00C0F4B0 /* Code128Reader.cpp in Sources */,
+				CD933EE6155AC42C00C0F4B0 /* EAN8Reader.cpp in Sources */,
+				CD933EE7155AC42C00C0F4B0 /* EAN13Reader.cpp in Sources */,
+				CD933EE8155AC42C00C0F4B0 /* ITFReader.cpp in Sources */,
+				CD933EE9155AC42C00C0F4B0 /* MultiFormatOneDReader.cpp in Sources */,
+				CD933EEA155AC42C00C0F4B0 /* MultiFormatUPCEANReader.cpp in Sources */,
+				CD933EEB155AC42C00C0F4B0 /* OneDReader.cpp in Sources */,
+				CD933EEC155AC42C00C0F4B0 /* OneDResultPoint.cpp in Sources */,
+				CD933EED155AC42C00C0F4B0 /* UPCAReader.cpp in Sources */,
+				CD933EEE155AC42C00C0F4B0 /* UPCEANReader.cpp in Sources */,
+				CD933EEF155AC42C00C0F4B0 /* UPCEReader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
