@@ -26,7 +26,7 @@ namespace zxing {
 
 class GreyscaleRotatedLuminanceSource : public LuminanceSource {
  private:
-  unsigned char* greyData_;
+  const unsigned char* greyData_;
   int dataWidth_;
   int dataHeight_;
   int left_;
@@ -35,7 +35,7 @@ class GreyscaleRotatedLuminanceSource : public LuminanceSource {
   int height_;
 
 public:
-  GreyscaleRotatedLuminanceSource(unsigned char* greyData, int dataWidth, int dataHeight,
+  GreyscaleRotatedLuminanceSource(const unsigned char* greyData, int dataWidth, int dataHeight,
       int left, int top, int width, int height);
 
   unsigned char* getRow(int y, unsigned char* row);

@@ -23,7 +23,7 @@
 
 namespace zxing {
 
-GreyscaleLuminanceSource::GreyscaleLuminanceSource(unsigned char* greyData, int dataWidth,
+GreyscaleLuminanceSource::GreyscaleLuminanceSource(const unsigned char* greyData, int dataWidth,
     int dataHeight, int left, int top, int width, int height) : greyData_(greyData),
     dataWidth_(dataWidth), dataHeight_(dataHeight), left_(left), top_(top), width_(width),
     height_(height) {
