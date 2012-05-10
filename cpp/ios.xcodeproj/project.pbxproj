@@ -64,6 +64,16 @@
 		CD933EED155AC42C00C0F4B0 /* UPCAReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EE1155AC42C00C0F4B0 /* UPCAReader.cpp */; };
 		CD933EEE155AC42C00C0F4B0 /* UPCEANReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EE2155AC42C00C0F4B0 /* UPCEANReader.cpp */; };
 		CD933EEF155AC42C00C0F4B0 /* UPCEReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EE3155AC42C00C0F4B0 /* UPCEReader.cpp */; };
+		CDAD6063155C210600AEC49F /* MultiFormatReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6061155C210600AEC49F /* MultiFormatReader.cpp */; };
+		CDAD6064155C210600AEC49F /* NotFoundException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6062155C210600AEC49F /* NotFoundException.cpp */; };
+		CDAD6067155C214000AEC49F /* WhiteRectangleDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6066155C214000AEC49F /* WhiteRectangleDetector.cpp */; };
+		CDAD6069155C224700AEC49F /* DataMatrixReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6068155C224700AEC49F /* DataMatrixReader.cpp */; };
+		CDAD606B155C22A000AEC49F /* Decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD606A155C22A000AEC49F /* Decoder.cpp */; };
+		CDAD606D155C22AA00AEC49F /* Detector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD606C155C22AA00AEC49F /* Detector.cpp */; };
+		CDAD6071155C244F00AEC49F /* BitMatrixParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6070155C244F00AEC49F /* BitMatrixParser.cpp */; };
+		CDAD6074155C272200AEC49F /* DataBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6072155C272200AEC49F /* DataBlock.cpp */; };
+		CDAD6075155C272200AEC49F /* DecodedBitStreamParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6073155C272200AEC49F /* DecodedBitStreamParser.cpp */; };
+		CDAD6078155C27EA00AEC49F /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6077155C27EA00AEC49F /* Version.cpp */; };
 		E105A8FE14EC34270011473C /* GenericGF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E105A8FC14EC34270011473C /* GenericGF.cpp */; };
 		E105A8FF14EC34270011473C /* GenericGFPoly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E105A8FD14EC34270011473C /* GenericGFPoly.cpp */; };
 		E105A90414EC35070011473C /* AztecDetectorResult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E105A90214EC35070011473C /* AztecDetectorResult.cpp */; };
@@ -130,6 +140,16 @@
 		CD933EE1155AC42C00C0F4B0 /* UPCAReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UPCAReader.cpp; path = core/src/zxing/oned/UPCAReader.cpp; sourceTree = "<group>"; };
 		CD933EE2155AC42C00C0F4B0 /* UPCEANReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UPCEANReader.cpp; path = core/src/zxing/oned/UPCEANReader.cpp; sourceTree = "<group>"; };
 		CD933EE3155AC42C00C0F4B0 /* UPCEReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UPCEReader.cpp; path = core/src/zxing/oned/UPCEReader.cpp; sourceTree = "<group>"; };
+		CDAD6061155C210600AEC49F /* MultiFormatReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MultiFormatReader.cpp; path = core/src/zxing/MultiFormatReader.cpp; sourceTree = "<group>"; };
+		CDAD6062155C210600AEC49F /* NotFoundException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NotFoundException.cpp; path = core/src/zxing/NotFoundException.cpp; sourceTree = "<group>"; };
+		CDAD6066155C214000AEC49F /* WhiteRectangleDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WhiteRectangleDetector.cpp; path = core/src/zxing/common/detector/WhiteRectangleDetector.cpp; sourceTree = "<group>"; };
+		CDAD6068155C224700AEC49F /* DataMatrixReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixReader.cpp; path = core/src/zxing/datamatrix/DataMatrixReader.cpp; sourceTree = "<group>"; };
+		CDAD606A155C22A000AEC49F /* Decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Decoder.cpp; path = core/src/zxing/datamatrix/decoder/Decoder.cpp; sourceTree = "<group>"; };
+		CDAD606C155C22AA00AEC49F /* Detector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Detector.cpp; path = core/src/zxing/datamatrix/detector/Detector.cpp; sourceTree = "<group>"; };
+		CDAD6070155C244F00AEC49F /* BitMatrixParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BitMatrixParser.cpp; path = core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp; sourceTree = "<group>"; };
+		CDAD6072155C272200AEC49F /* DataBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataBlock.cpp; path = core/src/zxing/datamatrix/decoder/DataBlock.cpp; sourceTree = "<group>"; };
+		CDAD6073155C272200AEC49F /* DecodedBitStreamParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DecodedBitStreamParser.cpp; path = core/src/zxing/datamatrix/decoder/DecodedBitStreamParser.cpp; sourceTree = "<group>"; };
+		CDAD6077155C27EA00AEC49F /* Version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Version.cpp; path = core/src/zxing/datamatrix/Version.cpp; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libzxing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libzxing.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E105A8FC14EC34270011473C /* GenericGF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenericGF.cpp; path = core/src/zxing/common/reedsolomon/GenericGF.cpp; sourceTree = "<group>"; };
 		E105A8FD14EC34270011473C /* GenericGFPoly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GenericGFPoly.cpp; path = core/src/zxing/common/reedsolomon/GenericGFPoly.cpp; sourceTree = "<group>"; };
@@ -182,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				E105A90114EC34E20011473C /* aztec */,
+				CDAD606E155C237F00AEC49F /* datamatrix */,
 				CD933ED7155AC40F00C0F4B0 /* oned */,
 				E105A90014EC34580011473C /* qrcode */,
 				3B1EEECC144F1FBE0051C6A5 /* CharacterSetECI.cpp */,
@@ -215,6 +236,9 @@
 				3B15E73912CE996800DC7062 /* LuminanceSource.cpp */,
 				CD933ED2155AC3EA00C0F4B0 /* GreyscaleLuminanceSource.cpp */,
 				CD933ED3155AC3EA00C0F4B0 /* GreyscaleRotatedLuminanceSource.cpp */,
+				CDAD6061155C210600AEC49F /* MultiFormatReader.cpp */,
+				CDAD6062155C210600AEC49F /* NotFoundException.cpp */,
+				CDAD6066155C214000AEC49F /* WhiteRectangleDetector.cpp */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -244,6 +268,36 @@
 				CD933EE3155AC42C00C0F4B0 /* UPCEReader.cpp */,
 			);
 			name = oned;
+			sourceTree = "<group>";
+		};
+		CDAD606E155C237F00AEC49F /* datamatrix */ = {
+			isa = PBXGroup;
+			children = (
+				CDAD606F155C243B00AEC49F /* decoder */,
+				CDAD6076155C277A00AEC49F /* detector */,
+				CDAD6068155C224700AEC49F /* DataMatrixReader.cpp */,
+				CDAD6077155C27EA00AEC49F /* Version.cpp */,
+			);
+			name = datamatrix;
+			sourceTree = "<group>";
+		};
+		CDAD606F155C243B00AEC49F /* decoder */ = {
+			isa = PBXGroup;
+			children = (
+				CDAD6072155C272200AEC49F /* DataBlock.cpp */,
+				CDAD6073155C272200AEC49F /* DecodedBitStreamParser.cpp */,
+				CDAD606A155C22A000AEC49F /* Decoder.cpp */,
+				CDAD6070155C244F00AEC49F /* BitMatrixParser.cpp */,
+			);
+			name = decoder;
+			sourceTree = "<group>";
+		};
+		CDAD6076155C277A00AEC49F /* detector */ = {
+			isa = PBXGroup;
+			children = (
+				CDAD606C155C22AA00AEC49F /* Detector.cpp */,
+			);
+			name = detector;
 			sourceTree = "<group>";
 		};
 		E105A90014EC34580011473C /* qrcode */ = {
@@ -403,6 +457,16 @@
 				CD933EED155AC42C00C0F4B0 /* UPCAReader.cpp in Sources */,
 				CD933EEE155AC42C00C0F4B0 /* UPCEANReader.cpp in Sources */,
 				CD933EEF155AC42C00C0F4B0 /* UPCEReader.cpp in Sources */,
+				CDAD6063155C210600AEC49F /* MultiFormatReader.cpp in Sources */,
+				CDAD6064155C210600AEC49F /* NotFoundException.cpp in Sources */,
+				CDAD6067155C214000AEC49F /* WhiteRectangleDetector.cpp in Sources */,
+				CDAD6069155C224700AEC49F /* DataMatrixReader.cpp in Sources */,
+				CDAD606B155C22A000AEC49F /* Decoder.cpp in Sources */,
+				CDAD606D155C22AA00AEC49F /* Detector.cpp in Sources */,
+				CDAD6071155C244F00AEC49F /* BitMatrixParser.cpp in Sources */,
+				CDAD6074155C272200AEC49F /* DataBlock.cpp in Sources */,
+				CDAD6075155C272200AEC49F /* DecodedBitStreamParser.cpp in Sources */,
+				CDAD6078155C27EA00AEC49F /* Version.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
