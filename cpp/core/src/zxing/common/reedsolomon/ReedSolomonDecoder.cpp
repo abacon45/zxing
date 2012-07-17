@@ -41,16 +41,18 @@ void ReedSolomonDecoder::decode(ArrayRef<int> received, int twoS) {
   Ref<GenericGFPoly> poly(new GenericGFPoly(field, received));
 
 
+/*
 #ifdef DEBUG
-  cout << "decoding with poly " << *poly << "\n";
+  cout << "decoding with poly " << *poly << endl;
 #endif
+*/
 
   ArrayRef<int> syndromeCoefficients(new Array<int> (twoS));
 
 
 #ifdef DEBUG
   cout << "syndromeCoefficients array = " <<
-       syndromeCoefficients.array_ << "\n";
+      syndromeCoefficients.array_ << endl;
 #endif
 
   bool dataMatrix = (field.object_ == GenericGF::DATA_MATRIX_FIELD_256.object_);
@@ -92,8 +94,6 @@ vector<Ref<GenericGFPoly> > ReedSolomonDecoder::runEuclideanAlgorithm(Ref<Generi
 
   Ref<GenericGFPoly> rLast(a);
   Ref<GenericGFPoly> r(b);
-  Ref<GenericGFPoly> sLast(field->getOne());
-  Ref<GenericGFPoly> s(field->getZero());
   Ref<GenericGFPoly> tLast(field->getZero());
   Ref<GenericGFPoly> t(field->getOne());
 
@@ -101,10 +101,8 @@ vector<Ref<GenericGFPoly> > ReedSolomonDecoder::runEuclideanAlgorithm(Ref<Generi
   // Run Euclidean algorithm until r's degree is less than R/2
   while (r->getDegree() >= R / 2) {
     Ref<GenericGFPoly> rLastLast(rLast);
-    Ref<GenericGFPoly> sLastLast(sLast);
     Ref<GenericGFPoly> tLastLast(tLast);
     rLast = r;
-    sLast = s;
     tLast = t;
 
 
@@ -124,7 +122,6 @@ vector<Ref<GenericGFPoly> > ReedSolomonDecoder::runEuclideanAlgorithm(Ref<Generi
       r = r->addOrSubtract(rLast->multiplyByMonomial(degreeDiff, scale));
     }
 
-    s = q->multiply(sLast)->addOrSubtract(sLastLast);
     t = q->multiply(tLast)->addOrSubtract(tLastLast);
 
   }
@@ -139,12 +136,14 @@ vector<Ref<GenericGFPoly> > ReedSolomonDecoder::runEuclideanAlgorithm(Ref<Generi
   Ref<GenericGFPoly> omega(r->multiply(inverse));
 
 
+/*
 #ifdef DEBUG
-  cout << "t = " << *t << "\n";
+  cout << "t = " << *t << endl;
   cout << "r = " << *r << "\n";
-  cout << "sigma = " << *sigma << "\n";
-  cout << "omega = " << *omega << "\n";
+  cout << "sigma = " << *sigma << endl;
+  cout << "omega = " << *omega << endl;
 #endif
+*/
 
   vector<Ref<GenericGFPoly> > result(2);
   result[0] = sigma;
@@ -163,7 +162,7 @@ ArrayRef<int> ReedSolomonDecoder::findErrorLocations(Ref<GenericGFPoly> errorLoc
   ArrayRef<int> result(new Array<int>(numErrors));
   int e = 0;
   for (int i = 1; i < field->getSize() && e < numErrors; i++) {
-    // cout << "errorLocator(" << i << ") == " << errorLocator->evaluateAt(i) << "\n";
+    // cout << "errorLocator(" << i << ") == " << errorLocator->evaluateAt(i) << endl;
     if (errorLocator->evaluateAt(i) == 0) {
       result[e] = field->inverse(i);
       e++;

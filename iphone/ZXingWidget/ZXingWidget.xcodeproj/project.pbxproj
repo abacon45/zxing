@@ -640,9 +640,6 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				E5345D2811999F53000CB77F /* Resources */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				1D60391813DF7780006F4B51 /* AddressBook.framework */,
-				1D60391E13DF778C006F4B51 /* AddressBookUI.framework */,
-				1D6040C413E3393B006F4B51 /* AVFoundation.framework */,
 			);
 			name = ZXingWidget;
 			sourceTree = "<group>";
@@ -650,6 +647,9 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D60391813DF7780006F4B51 /* AddressBook.framework */,
+				1D60391E13DF778C006F4B51 /* AddressBookUI.framework */,
+				1D6040C413E3393B006F4B51 /* AVFoundation.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 				E53459CA119873F3000CB77F /* UIKit.framework */,
 				E5345A651198792F000CB77F /* AudioToolbox.framework */,
@@ -1287,7 +1287,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ZXingWidget" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1579,6 +1579,7 @@
 				LD_GENERATE_MAP_FILE = YES;
 				LD_OPENMP_FLAGS = "-fopenmp";
 				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-M",
@@ -1627,6 +1628,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv6";
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wextra",
@@ -1654,6 +1656,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv6";
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wextra",
