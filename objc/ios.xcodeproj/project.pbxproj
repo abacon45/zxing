@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151BBE2415E7C55400D4A09A /* ZXUPCAReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 151BBE2315E7C55400D4A09A /* ZXUPCAReader.mm */; };
 		3B15E6FE12CE970000DC7062 /* ZXLuminanceSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B15E6FD12CE970000DC7062 /* ZXLuminanceSource.mm */; };
 		3B15E70012CE971100DC7062 /* CGImageLuminanceSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B15E6FF12CE971100DC7062 /* CGImageLuminanceSource.mm */; };
 		3BBCB5B312DD018600B5936D /* ZXCaptureView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BBCB5B212DD018600B5936D /* ZXCaptureView.mm */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151BBE2315E7C55400D4A09A /* ZXUPCAReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXUPCAReader.mm; path = src/ZXing/ZXUPCAReader.mm; sourceTree = "<group>"; };
 		3B15E6FD12CE970000DC7062 /* ZXLuminanceSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXLuminanceSource.mm; path = src/zxing/ZXLuminanceSource.mm; sourceTree = "<group>"; };
 		3B15E6FF12CE971100DC7062 /* CGImageLuminanceSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CGImageLuminanceSource.mm; path = src/zxing/CGImageLuminanceSource.mm; sourceTree = "<group>"; };
 		3BBCB5B212DD018600B5936D /* ZXCaptureView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXCaptureView.mm; path = src/zxing/ZXCaptureView.mm; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				151BBE2315E7C55400D4A09A /* ZXUPCAReader.mm */,
 				CDA5597715B5ED8E00A5519C /* ZXMultiFormatReader.mm */,
 				CDA5597815B5ED8E00A5519C /* ZXUPCEReader.mm */,
 				CDA5597415B5ED3C00A5519C /* ZXCode39Reader.mm */,
@@ -203,6 +206,7 @@
 				CDA5597515B5ED3C00A5519C /* ZXCode39Reader.mm in Sources */,
 				CDA5597915B5ED8E00A5519C /* ZXMultiFormatReader.mm in Sources */,
 				CDA5597A15B5ED8E00A5519C /* ZXUPCEReader.mm in Sources */,
+				151BBE2415E7C55400D4A09A /* ZXUPCAReader.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
