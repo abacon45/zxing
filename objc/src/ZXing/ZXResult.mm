@@ -51,9 +51,13 @@
 }
 
 - (NSString*)text {
-  return [NSString 
-           stringWithCString:[state_ native]->getText()->getText().c_str()
-                    encoding:NSUTF8StringEncoding];
+  const zxing::Ref<zxing::Result> native = [state_ native];
+  if (native) {
+    return [NSString
+             stringWithCString:native->getText()->getText().c_str()
+                      encoding:NSUTF8StringEncoding];
+  }
+  return nil;
 }
 
 @end
