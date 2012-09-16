@@ -14,8 +14,7 @@ rm -rf build
 
 xcodebuild -arch i386 -target zxing -configuration Debug \
    -sdk iphonesimulator5.1 -project ios.xcodeproj
-xcodebuild -arch armv6 -arch armv7 -target zxing \
-   -sdk iphoneos5.1 -project ios.xcodeproj
+xcodebuild -arch armv7 -arch armv7s -target zxing -project ios.xcodeproj
 
 libtool -static -o $ROOT_DIR/libzxing.a \
    ./build/Release-iphoneos/libzxing.a \
@@ -26,8 +25,7 @@ rm -rf build
 
 xcodebuild -arch i386 -target zxingmm -configuration Debug \
    -sdk iphonesimulator5.1 -project ios.xcodeproj
-xcodebuild -arch armv6 -arch armv7 -target zxingmm \
-   -sdk iphoneos5.1 -project ios.xcodeproj
+xcodebuild -arch armv7 -arch armv7s -target zxingmm -project ios.xcodeproj
 
 libtool -static -o $ROOT_DIR/libzxingmm.a \
    ./build/Release-iphoneos/libzxingmm.a \
