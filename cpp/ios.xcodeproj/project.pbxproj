@@ -22,7 +22,6 @@
 		3B2A32FF12CEA53A001D9945 /* Detector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A32FE12CEA53A001D9945 /* Detector.cpp */; };
 		3B2A330312CEA55B001D9945 /* AlignmentPatternFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A330212CEA55B001D9945 /* AlignmentPatternFinder.cpp */; };
 		3B2A330712CEA59E001D9945 /* ResultPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A330612CEA59E001D9945 /* ResultPoint.cpp */; };
-		3B2A330B12CEA5BF001D9945 /* ReaderException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A330A12CEA5BF001D9945 /* ReaderException.cpp */; };
 		3B2A330F12CEA5D2001D9945 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A330E12CEA5D2001D9945 /* Version.cpp */; };
 		3B2A331312CEA5F3001D9945 /* FinderPatternFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A331212CEA5F3001D9945 /* FinderPatternFinder.cpp */; };
 		3B2A331712CEA60A001D9945 /* DecodeHints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B2A331612CEA60A001D9945 /* DecodeHints.cpp */; };
@@ -65,7 +64,6 @@
 		CD933EEE155AC42C00C0F4B0 /* UPCEANReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EE2155AC42C00C0F4B0 /* UPCEANReader.cpp */; };
 		CD933EEF155AC42C00C0F4B0 /* UPCEReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD933EE3155AC42C00C0F4B0 /* UPCEReader.cpp */; };
 		CDAD6063155C210600AEC49F /* MultiFormatReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6061155C210600AEC49F /* MultiFormatReader.cpp */; };
-		CDAD6064155C210600AEC49F /* NotFoundException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6062155C210600AEC49F /* NotFoundException.cpp */; };
 		CDAD6067155C214000AEC49F /* WhiteRectangleDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6066155C214000AEC49F /* WhiteRectangleDetector.cpp */; };
 		CDAD6069155C224700AEC49F /* DataMatrixReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD6068155C224700AEC49F /* DataMatrixReader.cpp */; };
 		CDAD606B155C22A000AEC49F /* Decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAD606A155C22A000AEC49F /* Decoder.cpp */; };
@@ -98,7 +96,6 @@
 		3B2A32FE12CEA53A001D9945 /* Detector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Detector.cpp; path = core/src/zxing/qrcode/detector/Detector.cpp; sourceTree = "<group>"; };
 		3B2A330212CEA55B001D9945 /* AlignmentPatternFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AlignmentPatternFinder.cpp; path = core/src/zxing/qrcode/detector/AlignmentPatternFinder.cpp; sourceTree = "<group>"; };
 		3B2A330612CEA59E001D9945 /* ResultPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ResultPoint.cpp; path = core/src/zxing/ResultPoint.cpp; sourceTree = "<group>"; };
-		3B2A330A12CEA5BF001D9945 /* ReaderException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ReaderException.cpp; path = core/src/zxing/ReaderException.cpp; sourceTree = "<group>"; };
 		3B2A330E12CEA5D2001D9945 /* Version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Version.cpp; path = core/src/zxing/qrcode/Version.cpp; sourceTree = "<group>"; };
 		3B2A331212CEA5F3001D9945 /* FinderPatternFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FinderPatternFinder.cpp; path = core/src/zxing/qrcode/detector/FinderPatternFinder.cpp; sourceTree = "<group>"; };
 		3B2A331612CEA60A001D9945 /* DecodeHints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DecodeHints.cpp; path = core/src/zxing/DecodeHints.cpp; sourceTree = "<group>"; };
@@ -141,7 +138,6 @@
 		CD933EE2155AC42C00C0F4B0 /* UPCEANReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UPCEANReader.cpp; path = core/src/zxing/oned/UPCEANReader.cpp; sourceTree = "<group>"; };
 		CD933EE3155AC42C00C0F4B0 /* UPCEReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UPCEReader.cpp; path = core/src/zxing/oned/UPCEReader.cpp; sourceTree = "<group>"; };
 		CDAD6061155C210600AEC49F /* MultiFormatReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MultiFormatReader.cpp; path = core/src/zxing/MultiFormatReader.cpp; sourceTree = "<group>"; };
-		CDAD6062155C210600AEC49F /* NotFoundException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NotFoundException.cpp; path = core/src/zxing/NotFoundException.cpp; sourceTree = "<group>"; };
 		CDAD6066155C214000AEC49F /* WhiteRectangleDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WhiteRectangleDetector.cpp; path = core/src/zxing/common/detector/WhiteRectangleDetector.cpp; sourceTree = "<group>"; };
 		CDAD6068155C224700AEC49F /* DataMatrixReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DataMatrixReader.cpp; path = core/src/zxing/datamatrix/DataMatrixReader.cpp; sourceTree = "<group>"; };
 		CDAD606A155C22A000AEC49F /* Decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Decoder.cpp; path = core/src/zxing/datamatrix/decoder/Decoder.cpp; sourceTree = "<group>"; };
@@ -223,7 +219,6 @@
 				3B2A332212CEA64F001D9945 /* PerspectiveTransform.cpp */,
 				3B2A331E12CEA638001D9945 /* GridSampler.cpp */,
 				3B2A331612CEA60A001D9945 /* DecodeHints.cpp */,
-				3B2A330A12CEA5BF001D9945 /* ReaderException.cpp */,
 				3B2A330612CEA59E001D9945 /* ResultPoint.cpp */,
 				3B2A32E712CEA43A001D9945 /* BinaryBitmap.cpp */,
 				3B2A32CB12CEA380001D9945 /* BitMatrix.cpp */,
@@ -237,7 +232,6 @@
 				CD933ED2155AC3EA00C0F4B0 /* GreyscaleLuminanceSource.cpp */,
 				CD933ED3155AC3EA00C0F4B0 /* GreyscaleRotatedLuminanceSource.cpp */,
 				CDAD6061155C210600AEC49F /* MultiFormatReader.cpp */,
-				CDAD6062155C210600AEC49F /* NotFoundException.cpp */,
 				CDAD6066155C214000AEC49F /* WhiteRectangleDetector.cpp */,
 			);
 			name = Classes;
@@ -409,7 +403,6 @@
 				3B2A32FF12CEA53A001D9945 /* Detector.cpp in Sources */,
 				3B2A330312CEA55B001D9945 /* AlignmentPatternFinder.cpp in Sources */,
 				3B2A330712CEA59E001D9945 /* ResultPoint.cpp in Sources */,
-				3B2A330B12CEA5BF001D9945 /* ReaderException.cpp in Sources */,
 				3B2A330F12CEA5D2001D9945 /* Version.cpp in Sources */,
 				3B2A331312CEA5F3001D9945 /* FinderPatternFinder.cpp in Sources */,
 				3B2A331712CEA60A001D9945 /* DecodeHints.cpp in Sources */,
@@ -458,7 +451,6 @@
 				CD933EEE155AC42C00C0F4B0 /* UPCEANReader.cpp in Sources */,
 				CD933EEF155AC42C00C0F4B0 /* UPCEReader.cpp in Sources */,
 				CDAD6063155C210600AEC49F /* MultiFormatReader.cpp in Sources */,
-				CDAD6064155C210600AEC49F /* NotFoundException.cpp in Sources */,
 				CDAD6067155C214000AEC49F /* WhiteRectangleDetector.cpp in Sources */,
 				CDAD6069155C224700AEC49F /* DataMatrixReader.cpp in Sources */,
 				CDAD606B155C22A000AEC49F /* Decoder.cpp in Sources */,
@@ -477,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/zxing.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -502,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/zxing.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -611,6 +605,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/zxing.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -665,6 +660,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/zxing.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

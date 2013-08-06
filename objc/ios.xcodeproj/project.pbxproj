@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		151BBE2415E7C55400D4A09A /* ZXUPCAReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 151BBE2315E7C55400D4A09A /* ZXUPCAReader.mm */; };
 		3B15E6FE12CE970000DC7062 /* ZXLuminanceSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B15E6FD12CE970000DC7062 /* ZXLuminanceSource.mm */; };
 		3B15E70012CE971100DC7062 /* CGImageLuminanceSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B15E6FF12CE971100DC7062 /* CGImageLuminanceSource.mm */; };
 		3BBCB5B312DD018600B5936D /* ZXCaptureView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BBCB5B212DD018600B5936D /* ZXCaptureView.mm */; };
@@ -22,6 +21,8 @@
 		3BBCB6BC12DD0B8100B5936D /* ZXCGImageLuminanceSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BBCB6B912DD0B8100B5936D /* ZXCGImageLuminanceSource.mm */; };
 		3BBCB6BD12DD0B8100B5936D /* ZXReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BBCB6BA12DD0B8100B5936D /* ZXReader.mm */; };
 		3BBCB71512DD105C00B5936D /* ZXResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BBCB71412DD105C00B5936D /* ZXResult.mm */; };
+		8B6F8B1E17AC0EBF00F9EB99 /* ZXMultiFormatReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F8B1D17AC0EBF00F9EB99 /* ZXMultiFormatReader.mm */; };
+		8B6F8B2017AC0F4800F9EB99 /* ZXImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F8B1F17AC0F4800F9EB99 /* ZXImage.mm */; };
 		AA747D9F0F9514B9006C5449 /* ios_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ios_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		CD36EC5F152F2DA800662113 /* ZXCode39Reader.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD36EC5D152F2DA700662113 /* ZXCode39Reader.mm */; };
@@ -45,6 +46,8 @@
 		3BBCB6B912DD0B8100B5936D /* ZXCGImageLuminanceSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXCGImageLuminanceSource.mm; path = src/zxing/ZXCGImageLuminanceSource.mm; sourceTree = "<group>"; };
 		3BBCB6BA12DD0B8100B5936D /* ZXReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXReader.mm; path = src/zxing/ZXReader.mm; sourceTree = "<group>"; };
 		3BBCB71412DD105C00B5936D /* ZXResult.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXResult.mm; path = src/zxing/ZXResult.mm; sourceTree = "<group>"; };
+		8B6F8B1D17AC0EBF00F9EB99 /* ZXMultiFormatReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXMultiFormatReader.mm; path = src/ZXing/ZXMultiFormatReader.mm; sourceTree = "<group>"; };
+		8B6F8B1F17AC0F4800F9EB99 /* ZXImage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXImage.mm; path = src/ZXing/ZXImage.mm; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ios_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD36EC5D152F2DA700662113 /* ZXCode39Reader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZXCode39Reader.mm; path = src/ZXing/ZXCode39Reader.mm; sourceTree = "<group>"; };
@@ -96,9 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				151BBE2315E7C55400D4A09A /* ZXUPCAReader.mm */,
-				CDA5597715B5ED8E00A5519C /* ZXMultiFormatReader.mm */,
-				CDA5597815B5ED8E00A5519C /* ZXUPCEReader.mm */,
-				CDA5597415B5ED3C00A5519C /* ZXCode39Reader.mm */,
 				3BBCB71412DD105C00B5936D /* ZXResult.mm */,
 				3BBCB6B812DD0B8100B5936D /* ZXBinarizer.mm */,
 				3BBCB6B912DD0B8100B5936D /* ZXCGImageLuminanceSource.mm */,
@@ -115,6 +115,8 @@
 				3BBCB5B212DD018600B5936D /* ZXCaptureView.mm */,
 				3B15E6FF12CE971100DC7062 /* CGImageLuminanceSource.mm */,
 				3B15E6FD12CE970000DC7062 /* ZXLuminanceSource.mm */,
+				8B6F8B1D17AC0EBF00F9EB99 /* ZXMultiFormatReader.mm */,
+				8B6F8B1F17AC0F4800F9EB99 /* ZXImage.mm */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -208,6 +210,8 @@
 				CD36EC5F152F2DA800662113 /* ZXCode39Reader.mm in Sources */,
 				CD36EC60152F2DA800662113 /* ZXUPCEReader.mm in Sources */,
 				CD36EC65152F2E1D00662113 /* ZXMultiFormatReader.mm in Sources */,
+				8B6F8B1E17AC0EBF00F9EB99 /* ZXMultiFormatReader.mm in Sources */,
+				8B6F8B2017AC0F4800F9EB99 /* ZXImage.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +222,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/zxingmm.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -237,6 +242,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/zxingmm.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -349,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/zxingmm.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -400,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/zxingmm.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
